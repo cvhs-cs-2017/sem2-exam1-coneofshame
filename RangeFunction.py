@@ -5,6 +5,10 @@ def count():
 print(count())
 
 """Repeat the exercise but count by 5's"""
+def count():
+    for i in range(40, 0, -5):
+        print(i)
+print(count())
 
 
 
