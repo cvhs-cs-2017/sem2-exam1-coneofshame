@@ -14,3 +14,13 @@ print(count())
 
 """Write a program that will count print all the multiples of (n) where n is
 taken from user input.  Include necessary print statements."""
+def multiples():
+    x = 1
+    n = int(input('Enter a number... '))
+    a = n
+    for i in range(10):
+        n = n * x
+        print(n)
+        x += 1
+        n = a
+print(multiples())
