@@ -2,8 +2,14 @@
 than 100.  It should then spit out the result AND tell the user how many times
 it had to add 5 (if any)"""
 
-
-
+def count(n):
+    x = 0
+    while n <= 100:
+        n += 5
+        x += 1
+    print(n)
+    print('I added ' + str(x) + ' 5\'s')
+print(count(101))
 
 
 
