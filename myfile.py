@@ -1,7 +1,6 @@
 def add10(n):
     n = n + 10
     return n
-print(add10(10))
 
 
 
@@ -13,8 +12,7 @@ def DrawRectangle(Anyturtle, l, w):
         Anyturtle.rt(90)
         Anyturtle.fd(w)
         Anyturtle.rt(90)
-stan = turtle.Turtle()
-DrawRectangle(stan, 50, 100)
+
 
 
 def DrawPoly(Anyturtle, n):
@@ -28,5 +26,3 @@ def DrawPoly(Anyturtle, n):
         for i in range(n):
             Anyturtle.fd(50)
             Anyturtle.lt(theta)
-DrawPoly(stan, 21)
-input()
